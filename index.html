@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>The Site of Answers</title>
+  <link rel="preload" as="image" href="space.jpg">
+  <link rel="preload" as="image" href="owl.gif">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    body {
+      background-image: url('space.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body style="opacity:0; transition: opacity 1s;height: 100vh; margin: 0; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div style="position: absolute; top: 10px; width: 100%; text-align: center; color: white; font-size: 24px;">
+    <b>The Site of Answers</b>
+    </div>
+    <h1 style="font-size: 80px;">
+    <img src="owl.gif" style="height: 200px; justify-content: center; display: block; margin-left: auto; margin-right: auto;">
+    Ask a yes-or-no question
+    <br>
+    <a href="answer.html" style="color: white;">Get the answer</a>
+    <br>
+    <br>
+    </h1>
+    <div style="position: absolute; bottom: 10px; width: 100%; text-align: center; color: white; font-size: 24px;">
+    <b>The Site of Answers</b>
+    </div>
+    <script>
+      window.addEventListener('load', () => {
+        document.body.style.opacity = '1'; // faz o body inteiro aparecer suavemente
+      });
+    </script>
+</body>
+</html>
