@@ -54,6 +54,12 @@
       margin: 0;
     }
 
+    #ask-btn, #back-btn {
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
     #ask-btn {
       background: none;
       border: none;
@@ -84,7 +90,7 @@
   <div class="bar bar-top"><b>The Site of Answers</b></div>
 
   <div id="question-view" class="view visible">
-    <img src="owl.gif" style="height: 200px;" alt="Owl">
+    <img src="owl.gif" style="height: 200px; margin-top: -164px;" alt="Owl">
     <h1>Ask a yes-or-no question</h1>
     <button id="ask-btn">Get the answer</button>
   </div>
